@@ -6,6 +6,7 @@ execute pathogen#infect()
 
 " -------------------------------------------------- 
 " Vundle
+
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 Bundle 'gmarik/vundle'
@@ -53,9 +54,10 @@ filetype plugin indent on
 
 " -------------------------------------------------- 
 " Vim settings
+
 syntax enable
+colorscheme chance-of-storm
 set background=dark
-colorscheme chance-of-storm  
 set guifont=Inconsolata\ For\ Powerline:h18
 set number
 set guioptions-=L
@@ -98,15 +100,17 @@ let g:ctrlp_custom_ignore = {
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
 
+" ctrlp extensions
 let g:ctrlp_extensions = ['funky']
-let g:airline_powerline_fonts=1
 
-let NERDTreeQuitOnOpen = 0
+" airline / powerline 
+let g:airline_powerline_fonts=1
 
 " ultisnips - custom trigger button
 let g:UltiSnipsSnippetDirectories=["snips"]
 let g:UltiSnipsExpandTrigger="<c-j>"
 
+" Open new gists in browser
 let g:gist_open_browser_after_post = 1
 
 " let syntastic clobber location list
@@ -146,4 +150,3 @@ map <up> <nop>
 map <down> <nop>
 map <left> <nop>
 map <right> <nop>
-
