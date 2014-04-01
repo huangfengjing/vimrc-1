@@ -1,9 +1,6 @@
 set nocompatible
 filetype off 
 
-" Pathogen
-execute pathogen#infect()
-
 " -------------------------------------------------- 
 " Vundle
 
@@ -26,8 +23,6 @@ Bundle 'scrooloose/nerdtree'
 Bundle 'kien/ctrlp.vim'
 Bundle 'bling/vim-airline'
 Bundle 'roman/golden-ratio'
-Bundle 'L9'
-Bundle 'FuzzyFinder'
 Bundle 'git://git.wincent.com/command-t.git'
 Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
 
@@ -55,11 +50,10 @@ filetype plugin indent on
 " -------------------------------------------------- 
 " Vim settings
 
-syntax enable
+syntax on
 colorscheme chance-of-storm
 set background=dark
 set guifont=Inconsolata\ For\ Powerline:h18
-set number
 set guioptions-=L
 
 " Searching configs
@@ -70,10 +64,23 @@ set smartcase
 " dat menu
 set wildmenu
 
+" misc
+set number
+set showmatch
+set showmode
+set scrolloff=1000
+set incsearch
+set ignorecase
+set smartcase
+set hidden
+
 " dont pop up preview window, ycm is enough
 set completeopt-=preview
 
-" use sysetm clipboard on mac
+" backspace stuff
+set backspace=indent,eol,start
+
+" use system clipboard on mac
 set clipboard=unnamed
 
 " 2 spaces to a tab, spaces as tab
@@ -87,8 +94,22 @@ set copyindent
 set smarttab
 set smartindent
 
+" lol backups
+set nobackup
+set noswapfile
+
+" show position
+set ruler
+
+autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
+
 " -------------------------------------------------- 
 " Plugin settings
+
+" ycm completion
+let g:ycm_add_preview_to_completeopt=1
+let g:ycm_autoclose_preview_window_after_completion = 1
+let g:ycm_autoclose_preview_window_after_insertion=1
 
 " ctrlp
 let g:ctrlp_follow_symlinks = 1
@@ -139,10 +160,13 @@ map <C-k> <C-W>k
 map <C-h> <C-W>h
 map <C-l> <C-W>l
 
+" Lusty juggler 
+nmap <silent> <leader>d :LustyJuggler<CR>
+
 " Nerd tree and tag list
 nmap <silent> <leader>t :NERDTreeToggle<CR>
 
-" CtrlP Funky ya ass
+" CtrlP funky ya ass
 nmap <silent> <leader>f :CtrlPFunky<CR>
 
 " remove training wheels
@@ -150,3 +174,8 @@ map <up> <nop>
 map <down> <nop>
 map <left> <nop>
 map <right> <nop>
+imap <up> <nop>
+imap <down> <nop>
+imap <left> <nop>
+imap <right> <nop>
+
