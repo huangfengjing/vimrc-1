@@ -18,12 +18,9 @@ Bundle 'rking/ag.vim'
 Bundle 'tacahiroy/ctrlp-funky'
 Bundle 'SirVer/ultisnips'
 Bundle 'tpope/vim-fugitive'
-Bundle 'Lokaltog/vim-easymotion'
 Bundle 'scrooloose/nerdtree'
 Bundle 'kien/ctrlp.vim'
 Bundle 'bling/vim-airline'
-Bundle 'roman/golden-ratio'
-Bundle 'git://git.wincent.com/command-t.git'
 Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
 
 " Linting
@@ -100,8 +97,6 @@ set noswapfile
 
 " show position
 set ruler
-
-autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
 
 " -------------------------------------------------- 
 " Plugin settings
