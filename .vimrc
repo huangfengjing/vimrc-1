@@ -36,7 +36,7 @@ Bundle 'mattn/webapi-vim'
 Bundle 'mattn/gist-vim'
 
 " Misc stuff copied from the internet
-Bundle 'my-stuff'
+Bundle 'zakangelle/my-stuff'
 
 " Color schemes
 Bundle 'flazz/vim-colorschemes'
