@@ -1,6 +1,6 @@
 # .vimrc
 
-Solid Vim configuration for JavaScript development. Includes all the goodies like [ctrlp](https://github.com/pangloss/vim-javascript), [ag.vim](https://github.com/pangloss/vim-javascript), [LustyJuggler](https://github.com/pangloss/vim-javascript), and [YouCompleteMe](https://github.com/pangloss/vim-javascript).
+Solid Vim configuration for JavaScript development. Includes all the goodies like [ctrlp](https://github.com/kien/ctrlp.vim), [ag.vim](https://github.com/rking/ag.vim), [LustyJuggler](https://github.com/vim-scripts/LustyJuggler), and [YouCompleteMe](https://github.com/Valloric/YouCompleteMe).
 
 ## Installation
 ```
