@@ -8,6 +8,8 @@ git clone https://github.com/zakangelle/vimrc.git
 cp vimrc/.vimrc ~/.vimrc
 ```
 
+Install bundles from Vim with `:BundleInstall`
+
 ## Requires
 + [Homebrew](http://brew.sh/)
 + [NodeJS](https://github.com/joyent/node)
@@ -15,8 +17,6 @@ cp vimrc/.vimrc ~/.vimrc
 + [Inconsolata for Powerline font](https://github.com/Lokaltog/powerline-fonts/tree/master/Inconsolata)
 
 ## Bundles
-Install bundles with `:BundleInstall`
-
 + [Tagbar](https://github.com/majutsushi/tagbar)
 + [LustyJuggler](https://github.com/vim-scripts/LustyJuggler)
 + [Align](https://github.com/vim-scripts/Align)
