@@ -11,7 +11,7 @@ cp vimrc/.vimrc ~/.vimrc
 Install bundles from Vim with `:BundleInstall`
 
 ## Requires
-+ [Homebrew](http://brew.sh/)
++ [Homebrew](http://brew.sh/) (needed for [CMake](http://www.cmake.org/cmake/resources/software.html) installation) required by YCM)
 + [NodeJS](https://github.com/joyent/node)
 + [Vundle](https://github.com/gmarik/Vundle.vim)
 + [Inconsolata for Powerline font](https://github.com/Lokaltog/powerline-fonts/tree/master/Inconsolata)
