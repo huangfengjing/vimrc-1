@@ -28,6 +28,7 @@ Install bundles from Vim with `:BundleInstall`
 + [ctrlp-funky](https://github.com/tacahiroy/ctrlp-funky)
 + [ultisnips](https://github.com/SirVer/ultisnips)
 + [vim-fugitive](https://github.com/tpope/vim-fugitive)
++ [bclose](https://github.com/rbgrouleff/bclose.vim)
 + [NERDTree](https://github.com/scrooloose/nerdtree)
 + [vim-airline](https://github.com/bling/vim-airline)
 + [sparkup](https://github.com/rstacruz/sparkup)

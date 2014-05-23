@@ -17,6 +17,7 @@ Bundle 'marijnh/tern_for_vim'
 Bundle 'rking/ag.vim'
 Bundle 'tacahiroy/ctrlp-funky'
 Bundle 'SirVer/ultisnips'
+Bundle 'rbgrouleff/bclose.vim'
 Bundle 'tpope/vim-fugitive'
 Bundle 'scrooloose/nerdtree'
 Bundle 'kien/ctrlp.vim'
@@ -36,7 +37,7 @@ Bundle 'mattn/webapi-vim'
 Bundle 'mattn/gist-vim'
 
 " Misc stuff copied from the internet
-Bundle 'zakangelle/my-stuff'
+Bundle 'my-stuff'
 
 " Color schemes
 Bundle 'flazz/vim-colorschemes'
@@ -173,4 +174,3 @@ imap <up> <nop>
 imap <down> <nop>
 imap <left> <nop>
 imap <right> <nop>
-
