@@ -15,6 +15,7 @@ Install bundles from Vim with `:BundleInstall`
 + [NodeJS](https://github.com/joyent/node)
 + [Vundle](https://github.com/gmarik/Vundle.vim)
 + [Inconsolata for Powerline font](https://github.com/Lokaltog/powerline-fonts/tree/master/Inconsolata)
++ [jshint](https://www.npmjs.org/package/jshint) globally installed (`npm install jshint -g`)
 
 ## Bundles
 + [Tagbar](https://github.com/majutsushi/tagbar)
