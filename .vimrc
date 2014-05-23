@@ -159,6 +159,9 @@ map <C-l> <C-W>l
 " Lusty juggler 
 nmap <silent> <leader>d :LustyJuggler<CR>
 
+" Buffer
+nmap <silent> <leader>q :Bclose<CR>
+
 " Nerd tree and tag list
 nmap <silent> <leader>t :NERDTreeToggle<CR>
 
