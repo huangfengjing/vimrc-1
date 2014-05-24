@@ -14,8 +14,8 @@ Install bundles from Vim with `:BundleInstall`
 + [Homebrew](http://brew.sh/) or standalone [CMake](http://www.cmake.org/cmake/resources/software.html) (required by YCM)
 + [NodeJS](https://github.com/joyent/node)
 + [Vundle](https://github.com/gmarik/Vundle.vim)
-+ [Inconsolata for Powerline font](https://github.com/Lokaltog/powerline-fonts/tree/master/Inconsolata)
 + [jshint](https://www.npmjs.org/package/jshint) globally installed (`npm install jshint -g`)
++ [Inconsolata for Powerline font](https://github.com/Lokaltog/powerline-fonts/tree/master/Inconsolata)
 
 ## Bundles
 + [Tagbar](https://github.com/majutsushi/tagbar)
