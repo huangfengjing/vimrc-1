@@ -81,6 +81,9 @@ set backspace=indent,eol,start
 " use system clipboard on mac
 set clipboard=unnamed
 
+" assign json files correct filetype
+au BufRead,BufNewFile *.json set filetype=json
+
 " 2 spaces to a tab, spaces as tab
 set tabstop=2
 set softtabstop=2
