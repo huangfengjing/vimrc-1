@@ -22,6 +22,7 @@ Bundle 'tpope/vim-fugitive'
 Bundle 'scrooloose/nerdtree'
 Bundle 'kien/ctrlp.vim'
 Bundle 'bling/vim-airline'
+Bundle 'elzr/vim-json'
 Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
 
 " Linting
@@ -136,6 +137,9 @@ let g:gist_open_browser_after_post = 1
 " let syntastic clobber location list
 let g:syntastic_always_populate_loc_list=1
 
+" no concealing json quotes
+let g:vim_json_syntax_conceal = 0
+
 " -------------------------------------------------- 
 " My mappings
 
@@ -180,3 +184,4 @@ imap <up> <nop>
 imap <down> <nop>
 imap <left> <nop>
 imap <right> <nop>
+
