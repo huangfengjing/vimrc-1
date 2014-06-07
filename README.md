@@ -38,6 +38,7 @@ Install bundles from Vim with `:BundleInstall`
 + [vim-javascript-syntax](https://github.com/jelera/vim-javascript-syntax)
 + [webapi-vim](https://github.com/mattn/webapi-vim)
 + [gist-vim](https://github.com/mattn/gist-vim)
++ [vim-json](https://github.com/elzr/vim-json)
 + [vim-colorschemes](https://github.com/flazz/vim-colorschemes)
 + [codeschool-vim-theme](https://github.com/29decibel/codeschool-vim-theme)
 + [my-stuff](https://github.com/zakangelle/my-stuff)
