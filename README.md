@@ -39,7 +39,7 @@ Install bundles from Vim with `:BundleInstall`
 + [vim-javascript-syntax](https://github.com/jelera/vim-javascript-syntax)
 + [vim-json](https://github.com/elzr/vim-json)
 
-### Syntax Checking
+### Linting
 + [syntastic](https://github.com/scrooloose/syntastic)
 
 ### Shorthand
