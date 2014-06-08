@@ -19,16 +19,16 @@ Install bundles from Vim with `:BundleInstall`
 
 ## Bundles
 
-### Movement
-+ [ag.vim (aka the_silver_searcher)](https://github.com/rking/ag.vim)
-+ [ctrlp](https://github.com/kien/ctrlp.vim)
-+ [ctrlp-funky](https://github.com/tacahiroy/ctrlp-funky)
-+ [tern_for_vim](https://github.com/marijnh/tern_for_vim)
-
 ### Buffer Management
 + [NERDTree](https://github.com/scrooloose/nerdtree)
 + [LustyJuggler](https://github.com/vim-scripts/LustyJuggler)
 + [bclose](https://github.com/rbgrouleff/bclose.vim)
+
+### Searching
++ [ag.vim (aka the_silver_searcher)](https://github.com/rking/ag.vim)
++ [ctrlp](https://github.com/kien/ctrlp.vim)
++ [ctrlp-funky](https://github.com/tacahiroy/ctrlp-funky)
++ [tern_for_vim](https://github.com/marijnh/tern_for_vim)
 
 ### Formatting
 + [Align](https://github.com/vim-scripts/Align)

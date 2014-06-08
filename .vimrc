@@ -8,16 +8,16 @@ set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 Bundle 'gmarik/vundle'
 
-" Movement
-Bundle 'rking/ag.vim'
-Bundle 'kien/ctrlp.vim'
-Bundle 'tacahiroy/ctrlp-funky'
-Bundle 'marijnh/tern_for_vim'
-
 " Buffer Management
 Bundle 'scrooloose/nerdtree'
 Bundle 'LustyJuggler'
 Bundle 'rbgrouleff/bclose.vim'
+
+" Searching
+Bundle 'rking/ag.vim'
+Bundle 'kien/ctrlp.vim'
+Bundle 'tacahiroy/ctrlp-funky'
+Bundle 'marijnh/tern_for_vim'
 
 " Formatting
 Bundle 'Align'
