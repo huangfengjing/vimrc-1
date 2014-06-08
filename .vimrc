@@ -8,37 +8,43 @@ set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 Bundle 'gmarik/vundle'
 
-" General shit
-Bundle 'Tagbar'
-Bundle 'LustyJuggler'
-Bundle 'Align'
-Bundle 'Valloric/YouCompleteMe'
-Bundle 'marijnh/tern_for_vim'
+" Movement
 Bundle 'rking/ag.vim'
-Bundle 'tacahiroy/ctrlp-funky'
-Bundle 'SirVer/ultisnips'
-Bundle 'rbgrouleff/bclose.vim'
-Bundle 'tpope/vim-fugitive'
-Bundle 'scrooloose/nerdtree'
 Bundle 'kien/ctrlp.vim'
-Bundle 'bling/vim-airline'
+Bundle 'tacahiroy/ctrlp-funky'
+Bundle 'marijnh/tern_for_vim'
+
+" Buffer Management
+Bundle 'scrooloose/nerdtree'
+Bundle 'LustyJuggler'
+Bundle 'rbgrouleff/bclose.vim'
+
+" Formatting
+Bundle 'Align'
+Bundle 'einars/js-beautify'
+Bundle 'JavaScript-Indent'
+
+" Syntax
+Bundle 'jelera/vim-javascript-syntax'
 Bundle 'elzr/vim-json'
-Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
 
 " Linting
 Bundle 'scrooloose/syntastic'
 
-" JS shit
-Bundle 'einars/js-beautify'
-Bundle 'JavaScript-Indent'
-Bundle 'jelera/vim-javascript-syntax'
+" Shorthand
+Bundle 'Valloric/YouCompleteMe'
+Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
+Bundle 'SirVer/ultisnips'
+Bundle 'my-stuff'
 
-" Gist that B
+" Status
+Bundle 'Tagbar'
+Bundle 'bling/vim-airline'
+
+" Git
+Bundle 'tpope/vim-fugitive'
 Bundle 'mattn/webapi-vim'
 Bundle 'mattn/gist-vim'
-
-" Misc stuff copied from the internet
-Bundle 'my-stuff'
 
 " Color schemes
 Bundle 'flazz/vim-colorschemes'
