@@ -8,7 +8,7 @@ git clone https://github.com/zakangelle/vimrc.git
 cp vimrc/.vimrc ~/.vimrc
 ```
 
-Install bundles from Vim with `:BundleInstall`
+Install bundles from within Vim with `:BundleInstall`
 
 ## Requires
 + [Homebrew](http://brew.sh/) or standalone [CMake](http://www.cmake.org/cmake/resources/software.html) (required by YCM)
