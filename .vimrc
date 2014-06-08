@@ -19,27 +19,27 @@ Bundle 'kien/ctrlp.vim'
 Bundle 'tacahiroy/ctrlp-funky'
 Bundle 'marijnh/tern_for_vim'
 
+" Syntax
+Bundle 'jelera/vim-javascript-syntax'
+Bundle 'elzr/vim-json'
+
 " Formatting
 Bundle 'Align'
 Bundle 'einars/js-beautify'
 Bundle 'JavaScript-Indent'
 
-" Syntax
-Bundle 'jelera/vim-javascript-syntax'
-Bundle 'elzr/vim-json'
-
 " Linting
 Bundle 'scrooloose/syntastic'
+
+" Status
+Bundle 'Tagbar'
+Bundle 'bling/vim-airline'
 
 " Shorthand
 Bundle 'Valloric/YouCompleteMe'
 Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
 Bundle 'SirVer/ultisnips'
 Bundle 'my-stuff'
-
-" Status
-Bundle 'Tagbar'
-Bundle 'bling/vim-airline'
 
 " Git
 Bundle 'tpope/vim-fugitive'

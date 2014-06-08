@@ -30,27 +30,27 @@ Install bundles from Vim with `:BundleInstall`
 + [ctrlp-funky](https://github.com/tacahiroy/ctrlp-funky)
 + [tern_for_vim](https://github.com/marijnh/tern_for_vim)
 
+### Syntax
++ [vim-javascript-syntax](https://github.com/jelera/vim-javascript-syntax)
++ [vim-json](https://github.com/elzr/vim-json)
+
 ### Formatting
 + [Align](https://github.com/vim-scripts/Align)
 + [js-beautify](https://github.com/einars/js-beautify)
 + [Javascript-Indent](https://github.com/pangloss/vim-javascript)
 
-### Syntax
-+ [vim-javascript-syntax](https://github.com/jelera/vim-javascript-syntax)
-+ [vim-json](https://github.com/elzr/vim-json)
-
 ### Linting
 + [syntastic](https://github.com/scrooloose/syntastic)
+
+### Status
++ [Tagbar](https://github.com/majutsushi/tagbar)
++ [vim-airline](https://github.com/bling/vim-airline)
 
 ### Shorthand
 + [YouCompleteMe](https://github.com/Valloric/YouCompleteMe)
 + [sparkup](https://github.com/rstacruz/sparkup)
 + [ultisnips](https://github.com/SirVer/ultisnips)
 + [my-stuff](https://github.com/zakangelle/my-stuff)
-
-### Status
-+ [Tagbar](https://github.com/majutsushi/tagbar)
-+ [vim-airline](https://github.com/bling/vim-airline)
 
 ### Git
 + [vim-fugitive](https://github.com/tpope/vim-fugitive)
