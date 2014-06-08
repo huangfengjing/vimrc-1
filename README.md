@@ -57,7 +57,7 @@ Install bundles from Vim with `:BundleInstall`
 + [webapi-vim](https://github.com/mattn/webapi-vim)
 + [gist-vim](https://github.com/mattn/gist-vim)
 
-### Themes
+### Color Schemes
 + [vim-colorschemes](https://github.com/flazz/vim-colorschemes)
 + [codeschool-vim-theme](https://github.com/29decibel/codeschool-vim-theme)
 
