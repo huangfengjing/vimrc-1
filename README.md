@@ -13,8 +13,8 @@ Install bundles from within Vim with `:BundleInstall`
 ## Requires
 + [Homebrew](http://brew.sh/) or standalone [CMake](http://www.cmake.org/cmake/resources/software.html) (required by YCM)
 + [NodeJS](https://github.com/joyent/node)
-+ [Vundle](https://github.com/gmarik/Vundle.vim) for package management
-+ [jshint](https://www.npmjs.org/package/jshint) (`npm install jshint -g`)
++ [Vundle](https://github.com/gmarik/Vundle.vim)
++ [jshint](https://www.npmjs.org/package/jshint)
 + [Inconsolata for Powerline font](https://github.com/Lokaltog/powerline-fonts/tree/master/Inconsolata)
 
 ## Bundles
