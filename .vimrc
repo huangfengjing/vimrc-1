@@ -10,7 +10,6 @@ Bundle 'gmarik/vundle'
 
 " Buffer Management
 Bundle 'scrooloose/nerdtree'
-Bundle 'LustyJuggler'
 Bundle 'rbgrouleff/bclose.vim'
 
 " Searching
@@ -150,7 +149,6 @@ let g:vim_json_syntax_conceal = 0
 " My mappings
 
 " fast edits
-nmap <silent> <leader>g :e ~/.gvimrc<CR>
 nmap <silent> <leader>v :e ~/.vimrc<CR>
 
 " Remove align maps scrit as to not super pollute leader keys
@@ -169,8 +167,12 @@ map <C-k> <C-W>k
 map <C-h> <C-W>h
 map <C-l> <C-W>l
 
+" delete without yank
+nnoremap <leader>d "_d
+vnoremap <leader>d "_d
+
 " Lusty juggler 
-nmap <silent> <leader>d :LustyJuggler<CR>
+nmap <silent> <leader>s :LustyJuggler<CR>
 
 " Buffer
 nmap <silent> <leader>q :Bclose<CR>
