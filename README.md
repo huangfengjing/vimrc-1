@@ -4,8 +4,8 @@ Solid Vim configuration for JavaScript development. Includes all the goodies lik
 
 ## Installation
 ```
-git clone https://github.com/zakangelle/vimrc.git
-cp vimrc/.vimrc ~/.vimrc
+$ git clone https://github.com/zakangelle/vimrc.git
+$ cp vimrc/.vimrc ~/.vimrc
 ```
 
 Install bundles from within Vim with `:BundleInstall`
@@ -65,11 +65,18 @@ Install bundles from within Vim with `:BundleInstall`
 [YouCompleteMe](https://github.com/Valloric/YouCompleteMe) needs to be compiled after installation:
 
 ```
-cd ~/.vim/bundle/YouCompleteMe && ./install.sh
+$ cd ~/.vim/bundle/YouCompleteMe && ./install.sh
 ```
 
 [tern_for_vim](https://github.com/marijnh/tern_for_vim) needs an `npm install`:
 
 ```
-cd ~/.vim/bundle/tern_for_vim && npm install
+$ cd ~/.vim/bundle/tern_for_vim && npm install
+```
+
+[my-stuff](https://github.com/zakangelle/my-stuff) must be installed directly via `git clone`:
+
+```
+$ git clone https://github.com/zakangelle/my-stuff
+$ mv my-stuff ~/.vim/bundle/my-stuff
 ```
