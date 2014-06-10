@@ -4,7 +4,7 @@ Solid Vim configuration for JavaScript development. Includes all the goodies lik
 
 ## Installation
 ```
-$ git clone https://github.com/zakangelle/vimrc.git
+$ git clone https://github.com/zakangelle/vimrc
 $ cp vimrc/.vimrc ~/.vimrc
 ```
 
