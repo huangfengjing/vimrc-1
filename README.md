@@ -14,7 +14,6 @@ Install bundles from within Vim with `:BundleInstall`
 + [Homebrew](http://brew.sh/) or standalone [CMake](http://www.cmake.org/cmake/resources/software.html) (required by YCM)
 + [NodeJS](https://github.com/joyent/node)
 + [Vundle](https://github.com/gmarik/Vundle.vim)
-+ [jshint](https://www.npmjs.org/package/jshint)
 + [Inconsolata for Powerline font](https://github.com/Lokaltog/powerline-fonts/tree/master/Inconsolata)
 
 ## Bundles
@@ -74,9 +73,15 @@ $ cd ~/.vim/bundle/YouCompleteMe && ./install.sh
 $ cd ~/.vim/bundle/tern_for_vim && npm install
 ```
 
+For linting with [jshint](https://www.npmjs.org/package/jshint), install it via npm:
+
+```
+$ npm install -g jshint
+```
+
 [my-stuff](https://github.com/zakangelle/my-stuff) must be installed directly via `git clone`:
 
 ```
 $ git clone https://github.com/zakangelle/my-stuff
-$ mv my-stuff ~/.vim/bundle/my-stuff
+$ cp my-stuff ~/.vim/bundle/my-stuff
 ```
