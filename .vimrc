@@ -169,11 +169,11 @@ map <C-h> <C-W>h
 map <C-l> <C-W>l
 
 " delete without yank
-nnoremap <leader>d "_d
-vnoremap <leader>d "_d
+nnoremap <leader>w "_d
+vnoremap <leader>w "_d
 
 " Lusty juggler 
-nmap <silent> <leader>s :LustyJuggler<CR>
+nmap <silent> <leader>d :LustyJuggler<CR>
 
 " Buffer
 nmap <silent> <leader>q :Bclose<CR>
