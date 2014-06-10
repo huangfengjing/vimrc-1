@@ -10,6 +10,7 @@ Bundle 'gmarik/vundle'
 
 " Buffer Management
 Bundle 'scrooloose/nerdtree'
+Bundle 'LustyJuggler'
 Bundle 'rbgrouleff/bclose.vim'
 
 " Searching
