@@ -32,7 +32,6 @@ Bundle 'JavaScript-Indent'
 Bundle 'scrooloose/syntastic'
 
 " Status
-Bundle 'Tagbar'
 Bundle 'bling/vim-airline'
 
 " Shorthand

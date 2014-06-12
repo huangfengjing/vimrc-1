@@ -42,7 +42,6 @@ Install bundles from within Vim with `:BundleInstall`
 + [syntastic](https://github.com/scrooloose/syntastic)
 
 ### Status
-+ [Tagbar](https://github.com/majutsushi/tagbar)
 + [vim-airline](https://github.com/bling/vim-airline)
 
 ### Shorthand
