@@ -27,7 +27,6 @@ Install bundles from within Vim with `:BundleInstall`
 + [ag.vim (aka the_silver_searcher)](https://github.com/rking/ag.vim)
 + [ctrlp](https://github.com/kien/ctrlp.vim)
 + [ctrlp-funky](https://github.com/tacahiroy/ctrlp-funky)
-+ [tern_for_vim](https://github.com/marijnh/tern_for_vim)
 
 ### Syntax
 + [vim-javascript-syntax](https://github.com/jelera/vim-javascript-syntax)
@@ -44,8 +43,11 @@ Install bundles from within Vim with `:BundleInstall`
 ### Status
 + [vim-airline](https://github.com/bling/vim-airline)
 
-### Shorthand
+### Autocomplete
 + [YouCompleteMe](https://github.com/Valloric/YouCompleteMe)
++ [tern_for_vim](https://github.com/marijnh/tern_for_vim)
+
+### Shorthand
 + [sparkup](https://github.com/rstacruz/sparkup)
 + [ultisnips](https://github.com/SirVer/ultisnips)
 + [my-stuff](https://github.com/zakangelle/my-stuff)

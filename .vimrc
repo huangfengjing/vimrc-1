@@ -17,7 +17,6 @@ Bundle 'rbgrouleff/bclose.vim'
 Bundle 'rking/ag.vim'
 Bundle 'kien/ctrlp.vim'
 Bundle 'tacahiroy/ctrlp-funky'
-Bundle 'marijnh/tern_for_vim'
 
 " Syntax
 Bundle 'jelera/vim-javascript-syntax'
@@ -34,8 +33,11 @@ Bundle 'scrooloose/syntastic'
 " Status
 Bundle 'bling/vim-airline'
 
-" Shorthand
+" Autocomplete
 Bundle 'Valloric/YouCompleteMe'
+Bundle 'marijnh/tern_for_vim'
+
+" Shorthand
 Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
 Bundle 'SirVer/ultisnips'
 Bundle 'my-stuff'
