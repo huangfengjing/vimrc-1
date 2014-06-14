@@ -31,6 +31,7 @@ Install bundles from within Vim with `:BundleInstall`
 ### Syntax
 + [vim-javascript-syntax](https://github.com/jelera/vim-javascript-syntax)
 + [vim-json](https://github.com/elzr/vim-json)
++ [vim-less](https://github.com/groenewege/vim-less)
 
 ### Formatting
 + [Align](https://github.com/vim-scripts/Align)

@@ -21,6 +21,7 @@ Bundle 'tacahiroy/ctrlp-funky'
 " Syntax
 Bundle 'jelera/vim-javascript-syntax'
 Bundle 'elzr/vim-json'
+Bundle 'groenewege/vim-less'
 
 " Formatting
 Bundle 'Align'
