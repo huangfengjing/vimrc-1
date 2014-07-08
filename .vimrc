@@ -58,7 +58,7 @@ filetype plugin indent on
 " Vim settings
 
 syntax on
-colorscheme chance-of-storm
+colorscheme made_of_code 
 set background=dark
 set guifont=Inconsolata\ For\ Powerline:h18
 set guioptions-=L
