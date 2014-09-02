@@ -32,11 +32,13 @@ Install bundles from within Vim with `:BundleInstall`
 + [vim-javascript-syntax](https://github.com/jelera/vim-javascript-syntax)
 + [vim-json](https://github.com/elzr/vim-json)
 + [vim-less](https://github.com/groenewege/vim-less)
++ [vim-mustache-handlebars](https://github.com/mustache/vim-mustache-handlebars)
 
 ### Formatting
 + [Align](https://github.com/vim-scripts/Align)
 + [js-beautify](https://github.com/einars/js-beautify)
 + [Javascript-Indent](https://github.com/pangloss/vim-javascript)
++ [delimitMate](https://github.com/Raimondi/delimitMate)
 
 ### Linting
 + [syntastic](https://github.com/scrooloose/syntastic)

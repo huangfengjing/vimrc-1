@@ -1,72 +1,72 @@
 set nocompatible
-filetype off 
+filetype off
 
-" -------------------------------------------------- 
+" --------------------------------------------------
 " Vundle
 
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
-Bundle 'gmarik/vundle'
+Plugin 'gmarik/vundle'
 
 " Buffer Management
-Bundle 'scrooloose/nerdtree'
-Bundle 'LustyJuggler'
-Bundle 'rbgrouleff/bclose.vim'
+Plugin 'scrooloose/nerdtree'
+Plugin 'LustyJuggler'
+Plugin 'rbgrouleff/bclose.vim'
 
 " Searching
-Bundle 'rking/ag.vim'
-Bundle 'kien/ctrlp.vim'
-Bundle 'tacahiroy/ctrlp-funky'
+Plugin 'rking/ag.vim'
+Plugin 'kien/ctrlp.vim'
+Plugin 'tacahiroy/ctrlp-funky'
 
 " Syntax
-Bundle 'jelera/vim-javascript-syntax'
-Bundle 'elzr/vim-json'
-Bundle 'groenewege/vim-less'
+Plugin 'jelera/vim-javascript-syntax'
+Plugin 'elzr/vim-json'
+Plugin 'mustache/vim-mustache-handlebars'
 
 " Formatting
-Bundle 'Align'
-Bundle 'einars/js-beautify'
-Bundle 'JavaScript-Indent'
+Plugin 'Align'
+Plugin 'einars/js-beautify'
+Plugin 'JavaScript-Indent'
+Plugin 'Raimondi/delimitMate'
 
 " Linting
-Bundle 'scrooloose/syntastic'
+Plugin 'scrooloose/syntastic'
 
 " Status
-Bundle 'bling/vim-airline'
+Plugin 'bling/vim-airline'
 
 " Autocomplete
-Bundle 'Valloric/YouCompleteMe'
-Bundle 'marijnh/tern_for_vim'
+Plugin 'Valloric/YouCompleteMe'
+Plugin 'marijnh/tern_for_vim'
 
 " Shorthand
-Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
-Bundle 'SirVer/ultisnips'
-Bundle 'my-stuff'
+Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
+Plugin 'SirVer/ultisnips'
+Plugin 'my-stuff'
 
 " Git
-Bundle 'tpope/vim-fugitive'
-Bundle 'mattn/webapi-vim'
-Bundle 'mattn/gist-vim'
+Plugin 'tpope/vim-fugitive'
+Plugin 'mattn/webapi-vim'
+Plugin 'mattn/gist-vim'
 
 " Color schemes
-Bundle 'flazz/vim-colorschemes'
-Bundle '29decibel/codeschool-vim-theme'
+Plugin 'flazz/vim-colorschemes'
+Plugin '29decibel/codeschool-vim-theme'
 
 filetype plugin indent on
 
-" -------------------------------------------------- 
+" --------------------------------------------------
 " Vim settings
 
 syntax on
 colorscheme chance-of-storm
-set background=dark
-set guifont=Inconsolata\ For\ Powerline:h18
+set guifont=Inconsolata\ For\ Powerline:h20
 set guioptions-=L
 
 " Searching configs
 set incsearch
 set ignorecase
-set smartcase 
+set smartcase
 
 " dat menu
 set wildmenu
@@ -111,7 +111,7 @@ set noswapfile
 " show position
 set ruler
 
-" -------------------------------------------------- 
+" --------------------------------------------------
 " Plugin settings
 
 " ycm completion
@@ -132,8 +132,13 @@ let g:ctrlp_cmd = 'CtrlP'
 " ctrlp extensions
 let g:ctrlp_extensions = ['funky']
 
-" airline / powerline 
+" delimit
+let g:delimitMate_expand_space = 1
+let g:delimitMate_expand_cr = 1
+
+" airline / powerline
 let g:airline_powerline_fonts=1
+let g:airline_theme="powerlineish"
 
 " ultisnips - custom trigger button
 let g:UltiSnipsSnippetDirectories=["snips"]
@@ -148,7 +153,7 @@ let g:syntastic_always_populate_loc_list=1
 " no concealing json quotes
 let g:vim_json_syntax_conceal = 0
 
-" -------------------------------------------------- 
+" --------------------------------------------------
 " My mappings
 
 " fast edits
@@ -158,6 +163,9 @@ nmap <silent> <leader>v :e ~/.vimrc<CR>
 if exists(":AlignMapsClean")
   AlignMapsClean
 endif
+
+" clean up shit
+nmap <silent> <leader>rt :retab \| %s/\s\+$//<CR>
 
 " Align stuff
 vmap AA :Align =<CR>
@@ -174,7 +182,7 @@ map <C-l> <C-W>l
 nnoremap <leader>w "_d
 vnoremap <leader>w "_d
 
-" Lusty juggler 
+" Lusty juggler
 nmap <silent> <leader>d :LustyJuggler<CR>
 
 " Buffer
@@ -195,4 +203,7 @@ imap <up> <nop>
 imap <down> <nop>
 imap <left> <nop>
 imap <right> <nop>
+
+" Remove whitespace on save
+autocmd BufWritePre * :%s/\s\+$//e
 
