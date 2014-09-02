@@ -77,13 +77,13 @@ $ cd ~/.vim/bundle/YouCompleteMe && ./install.sh
 $ cd ~/.vim/bundle/tern_for_vim && npm install
 ```
 
-For linting with [jshint](https://www.npmjs.org/package/jshint), install it via npm:
+For linting with [jshint](https://www.npmjs.org/package/jshint), install it globally via npm:
 
 ```
 $ npm install -g jshint
 ```
 
-[my-stuff](https://github.com/zakangelle/my-stuff) must be installed directly via `git clone`:
+[my-stuff](https://github.com/zakangelle/my-stuff) can be installed directly via `git clone`:
 
 ```
 $ git clone https://github.com/zakangelle/my-stuff
