@@ -21,6 +21,7 @@ Plugin 'tacahiroy/ctrlp-funky'
 " Syntax
 Plugin 'jelera/vim-javascript-syntax'
 Plugin 'elzr/vim-json'
+Plugin 'groenewege/vim-less'
 Plugin 'mustache/vim-mustache-handlebars'
 
 " Formatting
@@ -159,6 +160,10 @@ let g:vim_json_syntax_conceal = 0
 " fast edits
 nmap <silent> <leader>v :e ~/.vimrc<CR>
 
+" Tern stuff
+nmap <silent> <leader>j :TernDef<CR>
+nmap <silent> <c-s> :TernType<CR>
+
 " Remove align maps scrit as to not super pollute leader keys
 if exists(":AlignMapsClean")
   AlignMapsClean
@@ -171,6 +176,7 @@ nmap <silent> <leader>rt :retab \| %s/\s\+$//<CR>
 vmap AA :Align =<CR>
 vmap Ap :Align =><CR>
 vmap Aa :Align :<CR>
+vmap A, :Align ,<CR>
 
 " change switching windows
 map <C-j> <C-W>j
@@ -206,4 +212,3 @@ imap <right> <nop>
 
 " Remove whitespace on save
 autocmd BufWritePre * :%s/\s\+$//e
-
